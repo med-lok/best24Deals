@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Miriam+Libre:wght@400;700&family=Mogra&family=Overpass+Mono&family=Ovo&family=Pacifico&display=swap");
+.jumbotron {
+  background: repeat-x url("../public/images/headerBg.svg") center bottom,
+    #ecf4f2 !important;
+  padding: 0 !important;
+  #topMenu {
+    a {
+      font-family: Merienda One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ef704b;
+      &:hover {
+        color: #a62500;
+      }
+    }
+    .active a {
+      color: #a62500;
+    }
+  }
+  .search {
+    #inputSearch {
+      background: rgba(255, 255, 255, 0.79);
+      border-radius: 5px;
+      height: 43px;
+      padding: auto;
+    }
+    .button {
+      left: -4px;
+    }
+    button {
+      height: 43px;
+      background: #ef704b;
+      border-radius: 0px 12px 12px 0px;
+      font-family: Pacifico;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 39px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      padding: 7px 14px;
+      margin: 0;
+      &:hover {
+        color: #fbe9aa;
+      }
+    }
+  }
+  #categorieslist {
+    a {
+      font-family: Mogra;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      align-items: center;
+      text-align: center;
+      color: #065399;
+      padding: 0;
+      padding-right: 14px;
+      &:hover {
+        color: #ef704b;
+      }
+    }
+    .active a {
+      color: #ef704b;
+    }
+  }
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+    .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+.footer {
+  background: repeat-x url("../public/images/footerBg.svg") center top, #ecf4f2 !important;
+  padding: 0 !important;
+}
